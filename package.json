@@ -1,0 +1,19 @@
+{
+  "name": "sport-chat",
+  "version": "1.0.0",
+  "description": "Realtime sport-chat app with rooms",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Maks Divnich",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

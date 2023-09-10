@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Лабораторна №4 Дивнича Максима," />
+    <meta name="keywords" content="Дивнич, Максим, Лабораторна" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>SportsRooms App</title>
+  </head>
+  <body>
+    <div class="rooms-container">
+      <div class="container1">
+        <header class="header">
+          <h1 class="header__title">Sports Rooms</h1>
+          <p class="header__text">
+            Here you can communicate with people involved in various sports.
+          </p>
+        </header>
+        <main class="main">
+          <form action="chatroom.html" class="form">
+            <div class="form-control">
+              <label for="username" class="form-label">Username</label>
+              <input
+                type="text"
+                name="username"
+                id="username"
+                class="form-input"
+                placeholder="Enter username..."
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="room" class="form-label">Sport</label>
+              <select name="room" id="room" class="form-select">
+                <option value="Football">Football</option>
+                <option value="Basketball">Basketball</option>
+                <option value="Tennis">Tennis</option>
+                <option value="Swimming">Swimming</option>
+                <option value="Cycling">Cycling</option>
+                <option value="Volleyball">Volleyball</option>
+              </select>
+            </div>
+            <button type="submit" class="btn">Join Chat</button>
+          </form>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
